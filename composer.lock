@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b69daac83c8a719f365c22bfce54eaa1",
+    "packages": [
+        {
+            "name": "arraypress/proxycheck",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arraypress/proxycheck.git",
+                "reference": "7c50c014fcf2479b59bccf7e99d754abc82d91fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arraypress/proxycheck/zipball/7c50c014fcf2479b59bccf7e99d754abc82d91fe",
+                "reference": "7c50c014fcf2479b59bccf7e99d754abc82d91fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ArrayPress\\ProxyCheck\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David Sherlock",
+                    "homepage": "https://arraypress.com/"
+                }
+            ],
+            "description": "A PHP library for integrating with the ProxyCheck.io API in WordPress, providing proxy & VPN detection, disposable email verification, geolocation, and risk assessment. Features comprehensive response handling and WordPress transient caching.",
+            "homepage": "https://github.com/arraypress/proxycheck/",
+            "keywords": [
+                "anti-fraud",
+                "asn",
+                "disposable-email",
+                "email-verification",
+                "geolocation",
+                "ip-intelligence",
+                "ip-lookup",
+                "proxy-detection",
+                "proxycheck",
+                "risk-assessment",
+                "security",
+                "threat-detection",
+                "vpn-detection",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/arraypress/proxycheck/issues",
+                "source": "https://github.com/arraypress/proxycheck"
+            },
+            "time": "2024-12-07T12:12:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "arraypress/proxycheck": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
