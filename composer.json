@@ -1,15 +1,18 @@
 {
   "name": "arraypress/proxycheck-plugin",
-  "description": "description",
-  "minimum-stability": "dev",
-  "license": "proprietary",
+  "description": "Demonstration WordPress plugin showing ProxyCheck.io library integration",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
-      "name": "davidsherlock",
-      "email": "email@example.com"
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
     }
   ],
   "require": {
+    "php": "^7.4 || ^8.0",
     "arraypress/proxycheck": "dev-main"
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
