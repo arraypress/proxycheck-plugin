@@ -1,0 +1,15 @@
+{
+  "name": "arraypress/proxycheck-plugin",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "davidsherlock",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "arraypress/proxycheck": "dev-main"
+  }
+}
