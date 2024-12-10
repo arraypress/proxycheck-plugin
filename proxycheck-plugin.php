@@ -16,6 +16,9 @@
 
 namespace ArrayPress\ProxyCheck;
 
+use ArrayPress\ProxyCheck\Response\DisposableEmail;
+use ArrayPress\ProxyCheck\Response\IP;
+
 defined( 'ABSPATH' ) || exit;
 
 /**
@@ -441,7 +444,7 @@ class Plugin {
 	/**
 	 * Render a single IP result
 	 */
-	private function render_ip_result( Response $result ) {
+	private function render_ip_result( IP $result ) {
 		?>
         <div class="proxycheck-results">
             <table class="widefat">
@@ -667,9 +670,9 @@ class Plugin {
 	/**
 	 * Render an email check result
 	 *
-	 * @param DisposableEmailResponse $result The email check result
+	 * @param DisposableEmail $result The email check result
 	 */
-	private function render_email_result( DisposableEmailResponse $result ) {
+	private function render_email_result( DisposableEmail $result ) {
 		?>
         <div class="proxycheck-results">
             <table class="widefat">

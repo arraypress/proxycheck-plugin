@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b69daac83c8a719f365c22bfce54eaa1",
+    "content-hash": "7ec66b5df2b3ff7c49d1bb86e5e93f22",
     "packages": [
         {
             "name": "arraypress/proxycheck",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arraypress/proxycheck.git",
-                "reference": "7c50c014fcf2479b59bccf7e99d754abc82d91fe"
+                "reference": "628e123bd70b67356920902fa56378a41de14e17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arraypress/proxycheck/zipball/7c50c014fcf2479b59bccf7e99d754abc82d91fe",
-                "reference": "7c50c014fcf2479b59bccf7e99d754abc82d91fe",
+                "url": "https://api.github.com/repos/arraypress/proxycheck/zipball/628e123bd70b67356920902fa56378a41de14e17",
+                "reference": "628e123bd70b67356920902fa56378a41de14e17",
                 "shasum": ""
             },
             "require": {
@@ -62,7 +62,7 @@
                 "issues": "https://github.com/arraypress/proxycheck/issues",
                 "source": "https://github.com/arraypress/proxycheck"
             },
-            "time": "2024-12-07T12:12:19+00:00"
+            "time": "2024-12-10T12:34:16+00:00"
         }
     ],
     "packages-dev": [],
@@ -71,9 +71,11 @@
     "stability-flags": {
         "arraypress/proxycheck": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
+    "platform": {
+        "php": "^7.4 || ^8.0"
+    },
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
